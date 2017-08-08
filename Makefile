@@ -1,6 +1,6 @@
 all: clean compile
-	./ordenar.sh shell_sort ./datasets/dataset1.txt
-	./ordenar.sh quick_sort ./datasets/dataset1.txt
+	./ordenar.sh shell_sort ./datasets/dataset10000.txt
+	./ordenar.sh quick_sort ./datasets/dataset10000.txt
 	#./ordenar.sh bucket_sort ./datasets/dataset1.txt
 
 compile:
