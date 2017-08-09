@@ -43,9 +43,9 @@ int main () {
 
         end = clock();
 
-        for (i = 0; i < n; i++)
-            printf("%d%s", a[i], i == n - 1 ? "\n" : " ");
-        printf("Time:%f\n\n", ((double) (end - start)) / CLOCKS_PER_SEC);
+        /*for (i = 0; i < n; i++)
+            printf("%d%s", a[i], i == n - 1 ? "\n" : " "); */
+        printf("Time:%f\n", ((double) (end - start)) / CLOCKS_PER_SEC);
     }
     return 0;
 }

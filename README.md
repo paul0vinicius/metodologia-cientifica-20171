@@ -2,18 +2,20 @@
 
 # Instruções de uso
 
-- `make all`: executa os testes default. Os testes default incluem rodar todos os datasets existentes.
-- `make clean`: limpa o ambiente de testes.
+## Usando o makefile
+- `make all`: Executa todos os datasets existentes para todos os algoritmos.
+- `make compile`: Compila e gera os binários executáveis dos arquivos C.
+- `make clean`: Limpa o ambiente de testes.
+
+## Usando os scripts
+- `./ordenar.sh <nome_algoritmo> <dataset>`: Executa o script e salva seu tempo de execução na pasta 'outputs'.
+- `./generate_dataset.sh <numero_datasets> <tamanho_dataset>`: Gera um (ou mais) dataset(s) aleatório(s) com o tamanho especificado pelo usuário (Limite de 2M de elementos).
 
 # Algoritmos disponíveis
 
 - QuickSort
 - ShellSort
-- BucketSort (Implementação está com problemas, melhor substituir por outro algoritmo)
-
-# TO DO:
-- Elaborar mais datasets com números aleatórios variando em tamanho: 10, 100, 100K, 1M, 10M, 100M elementos.
-- Elaborar asserts para as implementações dos algoritmos, o que equivale aos testes de unidade para C.
+- MergeSort
 
 # Formato do dataset:  
   

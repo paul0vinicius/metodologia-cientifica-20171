@@ -32,9 +32,10 @@ void main()
 
     end = clock();
 
-    printf("\n\nSorted array is:  ");
+    /*printf("\n\nSorted array is:  ");
     for(i = 0; i < array_size; ++i)
       printf(" %d ", a[i]);
+    */
 
     printf("\nTime:%f\n", ((double) (end - start)) / CLOCKS_PER_SEC);
   }
